@@ -1,0 +1,7 @@
+﻿id,name,email,signup_date,amount,country,phone
+1, john smith ,john@example.com,03/04/2024,"1,200.50",PL,+48 600 111 222
+2,ANNA LEE,anna@example,2024-04-05,950,pl,600111222
+2,Marek Nowak,marek@example.com,5.4.2024,$300,PL,
+3,John Smith,john@example.com,2024-04-03,1200.50,PL,+48600111222
+,,,,,,
+4,Olga Ivanenko,olga@example.com,31/02/2024,abc,UA,380501112233

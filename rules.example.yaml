@@ -1,0 +1,20 @@
+﻿# Rules for csv_validate.py. Every key is optional.
+no_duplicate_rows: true
+columns:
+  id:
+    required: true
+    unique: true
+    regex: '\d+'
+  name:
+    required: true
+    max_length: 80
+  email:
+    required: true
+    regex: '[^@\s]+@[^@\s]+\.[A-Za-z]{2,}'
+  signup_date:
+    date_format: '%Y-%m-%d'
+  amount:
+    type: float
+    min: 0
+  country:
+    allowed: [PL, UA, DE]
